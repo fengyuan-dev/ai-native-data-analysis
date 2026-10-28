@@ -1,0 +1,32 @@
+[
+  {
+    "id": "S05",
+    "expected": "fail",
+    "error_type": "revenue_profit_confusion"
+  },
+  {
+    "id": "S06",
+    "expected": "pass",
+    "error_type": "none"
+  },
+  {
+    "id": "S07",
+    "expected": "fail",
+    "error_type": "causal_overclaim"
+  },
+  {
+    "id": "S08",
+    "expected": "pass",
+    "error_type": "none"
+  },
+  {
+    "id": "S09",
+    "expected": "fail",
+    "error_type": "unsupported_metric"
+  },
+  {
+    "id": "S10",
+    "expected": "pass",
+    "error_type": "none"
+  }
+]

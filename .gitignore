@@ -1,0 +1,19 @@
+# Python 虚拟环境
+.venv/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 环境变量和密钥
+.env
+.env.*
+
+# Jupyter 缓存
+.ipynb_checkpoints/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+.venv_test/

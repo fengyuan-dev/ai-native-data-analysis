@@ -1,0 +1,73 @@
+[
+  {
+    "id": "T01",
+    "type": "numeric",
+    "description": "正确的广告收入占比",
+    "channel": "广告",
+    "revenue": 13656,
+    "percentage": 43.64,
+    "expected": "pass"
+  },
+  {
+    "id": "T02",
+    "type": "numeric",
+    "description": "广告占比错误",
+    "channel": "广告",
+    "revenue": 13656,
+    "percentage": 53.64,
+    "expected": "fail"
+  },
+  {
+    "id": "T03",
+    "type": "numeric",
+    "description": "广告收入错误",
+    "channel": "广告",
+    "revenue": 15656,
+    "percentage": 43.64,
+    "expected": "fail"
+  },
+  {
+    "id": "T04",
+    "type": "semantic",
+    "description": "无依据的营销 ROI 结论",
+    "text": "广告渠道 ROI 最高，因此应该增加预算。",
+    "expected": "fail"
+  }
+  ,
+{
+  "id": "T05",
+  "type": "numeric",
+  "description": "正确的自然搜索收入与占比",
+  "channel": "自然搜索",
+  "revenue": 8071,
+  "percentage": 25.79,
+  "expected": "pass"
+},
+{
+  "id": "T06",
+  "type": "numeric",
+  "description": "推荐渠道占比错误",
+  "channel": "推荐",
+  "revenue": 5579,
+  "percentage": 27.83,
+  "expected": "fail"
+},
+{
+  "id": "T07",
+  "type": "numeric",
+  "description": "不存在的获客渠道",
+  "channel": "短视频",
+  "revenue": 5000,
+  "percentage": 15.98,
+  "expected": "fail"
+},
+{
+  "id": "T08",
+  "type": "numeric",
+  "description": "正确的直接访问收入与占比",
+  "channel": "直接访问",
+  "revenue": 3986,
+  "percentage": 12.74,
+  "expected": "pass"
+}
+]

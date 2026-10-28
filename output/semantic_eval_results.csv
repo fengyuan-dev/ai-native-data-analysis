@@ -1,0 +1,5 @@
+﻿id,expected,predicted,correct,error_type
+S01,pass,pass,True,none
+S02,fail,fail,True,unsupported_metric
+S03,pass,pass,True,none
+S04,fail,fail,True,causal_overclaim

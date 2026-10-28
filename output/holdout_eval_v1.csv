@@ -1,0 +1,7 @@
+﻿id,expected,error_type,predicted,reason,correct
+S05,fail,revenue_profit_confusion,fail,将收入误作利润，未提供成本或利润数据。,True
+S06,pass,none,pass,两渠道收入与证据一致，差额5585计算正确。,True
+S07,fail,causal_overclaim,fail,缺少历史收入和增量证据，无法确认增长及其原因。,True
+S08,pass,none,pass,建议补充数据后再决策，未编造事实或进行因果归因。,True
+S09,fail,unsupported_metric,fail,未提供转化率数据，18.5%及渠道比较均无依据。,True
+S10,pass,none,pass,缺少成本及实验增量效果，确实无法判断增量回报率排名。,True

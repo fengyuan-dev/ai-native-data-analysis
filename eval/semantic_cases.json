@@ -1,0 +1,26 @@
+[
+  {
+    "id": "S01",
+    "text": "广告收入为 13,656，占比 43.64%。",
+    "expected": "pass",
+    "error_type": "none"
+  },
+  {
+    "id": "S02",
+    "text": "广告渠道 ROI 达到 300%。",
+    "expected": "fail",
+    "error_type": "unsupported_metric"
+  },
+  {
+    "id": "S03",
+    "text": "广告收入较高可能与付费用户规模有关，需要进一步验证。",
+    "expected": "pass",
+    "error_type": "none"
+  },
+  {
+    "id": "S04",
+    "text": "广告收入最高，证明广告投放带来了最大的增量收益。",
+    "expected": "fail",
+    "error_type": "causal_overclaim"
+  }
+]
